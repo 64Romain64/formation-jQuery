@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Les bases de jQuery</title>
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <section>
+        <article>
+            <h1>Introduction à jQuery</h1>
+
+            <h2>Syntaxe générale</h2>
+            <p class="content">
+                Paragraphe 1 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt
+                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat
+            </p>
+            <h2>Les sélecteurs</h2>
+            <p class="content">
+                Paragraphe 2 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt
+                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat
+            </p>
+            <h2>Les méthodes</h2>
+            <p class="content">
+                Paragraphe 3 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt
+                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat
+            </p>
+
+            <h2>Conclusion</h2>
+        </article>
+    </section>
+
+    <script>
+        $(document).ready(function () {
+            $('p.content').css('color', 'blue');
+        });
+    </script>
+</body>
+
+</html>
